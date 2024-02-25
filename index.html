@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- cdn for font -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    <title>Juniper  Technology Research</title>
+
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="script.js" defer></script>
+    
+    <!-- Embed Model Viewer -->
+    <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
+    
+  </head>
+  <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <img
+          src="https://cdn.glitch.global/a57e955b-d87e-49c1-b563-63ea87e83699/logo.png?v=1708890254844"
+          class="logo"
+          alt="logo"
+          title="Juniper Technology Research logo"
+        />
+        <div class="title-container">
+           <h1 class="title">Juniper <br> Technology <br> Research </h1>
+           <model-viewer id="modelViewer" class="computer" src="https://cdn.glitch.global/a57e955b-d87e-49c1-b563-63ea87e83699/mac.glb?v=1708891356711" alt="A 3D model of a macintosh"></model-viewer>
+        </div>
+
+        <a href="https://forms.gle/APywyhHGr63KGuEn8">
+          <button class="button" href="https://forms.gle/APywyhHGr63KGuEn8">
+          sign up for updates
+          <!-  🚧 TODO: ADD BUTTON HERE -->
+
+          <!-- Once you've added the button from TODO.md, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
+          </button>
+       </a>
+      </div>
+    </div>
+  </body>
+</html>
